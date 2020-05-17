@@ -91,11 +91,6 @@ header h1{
 }
 
 
-#contactForm h2{
-    text-align: center;
-    padding-top: 20px;
-    color: white;
-}
 
 #contactForm img{
   display: block;
@@ -162,3 +157,77 @@ padding-top: 10px;
 footer .fa:hover{
     color: #bc86c2 !important;
 }
+
+@media screen and (max-width: 600px) {
+
+  header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #background img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    opacity: 0.75;
+}
+
+.button{
+  border: solid;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100px;
+  height: 10%;
+  margin: auto;
+  align-items: center;
+  overflow: hidden;
+  padding: 4px 20px 4px 20px;
+  
+}
+
+.button img{
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+#music img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  display: block;
+  
+}
+
+#contactForm img{
+  /*display: block;
+*/  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
+  padding-bottom: 30px;
+}
+
+input[type=button], input[type=image], input[type=reset] {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #d7b0d8;
+  font-family: 'Shadows Into Light Two', cursive;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: medium;
+  width: 38%;
+}
+
+}
+
