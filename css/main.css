@@ -25,7 +25,7 @@ body{
   color: white;
   text-decoration: none;
   cursor: pointer;
-  width: 20%;
+  width: 200px;
   height: 10%;
   margin: auto;
   align-items: center;
@@ -35,7 +35,7 @@ body{
 }
 
 .button img{
-  width: 40%;
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -50,14 +50,6 @@ body{
     height: 40%;
     opacity: 0.75;
 }
-
-/*header{
-  background-color: #d7b0d8;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: xx-large;
-}*/
 
 header img{
   display: block;
@@ -98,23 +90,6 @@ header h1{
   line-height: 1.6;
 }
 
-#tour{
-  min-height: 400px;
-  background-color: #d7b0d8;
-  text-align: center;
-  color: white;
-}
-
-#tour h3{
-  margin-top: 35px;
-  font-size: x-large;
-  margin-bottom: 40px;
-}
-
-#tour p{
-  font-size: large;
-  line-height: 1.6;
-}
 
 #contactForm h2{
     text-align: center;
