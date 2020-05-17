@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 0;
+    padding: 0; 
+    background-color:#d7b0d8 ;
+    margin-bottom:50px;
+
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button{
+  border: solid;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 20%;
+  height: 10%;
+  margin: auto;
+  align-items: center;
+  overflow: hidden;
+  padding: 8px 20px 8px 20px;
+  
+}
+
+.button img{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+#background img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    opacity: 0.75;
+}
+
+/*header{
+  background-color: #d7b0d8;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: xx-large;
+}*/
+
+header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+#music{
+  min-height: 600px;
+  background-color: #d7b0d8;
+  text-align: center;
+  color: white;
+
+}
+
+#music img{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  display: block;
+  
+}
+
+#music h2{
+  margin-top: 30px;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+#music p{
+  font-size: large;
+  line-height: 1.6;
+}
+
+#tour{
+  min-height: 400px;
+  background-color: #d7b0d8;
+  text-align: center;
+  color: white;
+}
+
+#tour h3{
+  margin-top: 35px;
+  font-size: x-large;
+  margin-bottom: 40px;
+}
+
+#tour p{
+  font-size: large;
+  line-height: 1.6;
+}
+
+#contactForm h2{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+#contactForm img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#contactForm form{
+    color: white;
+    text-align: center; 
+}
+
+label{
+    padding-bottom: 10px;
+    display: block;
+}
+
+input[type="text"], textarea {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  input[type=button], input[type=image], input[type=reset] {
+    margin-top: 15px;
+    text-align: center;
+    background-color: #d7b0d8;
+    font-family: 'Shadows Into Light Two', cursive;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    width: 10%;
+  }
+
+
+footer{/*
+  padding-top: 5px;
+  padding-bottom: 2px;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  font-size: small;
+*/
+padding-top: 10px;
+  position: static;
+  height: 70px;
+  color: white;
+  flex-shrink: 0;
+  display: block;
+  text-align: center;
+  line-height: 3;
+
+}
+
+footer .fa:hover{
+    color: #bc86c2 !important;
+}
