@@ -12,12 +12,14 @@ body{
 
 }
 
+
 .container{
   width: 80%;
   margin: auto;
   overflow: hidden;
   padding-top: 30px;
   padding-bottom: 30px;
+    text-align: center;
 }
 
 .button{
@@ -91,7 +93,6 @@ header h1{
   line-height: 1.6;
 }
 */
-
 
 #contactForm img{
   display: block;
@@ -183,6 +184,11 @@ footer .fa:hover{
     height: 50%;
     opacity: 0.75;
 }
+
+  #background iframe{
+      width: 80%;
+      height: 70%;
+  }
 
 .button{
   border: solid;
