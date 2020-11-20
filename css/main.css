@@ -22,6 +22,15 @@ body{
     text-align: center;
 }
 
+.desktop{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .button{
   border: solid;
   color: white;
@@ -51,6 +60,10 @@ body{
     width: 40%;
     height: 40%;
     opacity: 0.75;
+}
+
+.mobileDevice_600px{
+    display: none;
 }
 
 header img{
@@ -190,7 +203,17 @@ footer .fa:hover{
       height: 70%;
   }
 
-.button{
+.mobileDevice_600px{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.desktop{
+    display: none;
+}
+
+    .button{
   border: solid;
   color: white;
   text-decoration: none;
