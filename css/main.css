@@ -176,8 +176,14 @@ footer img{
   width: 10%;
 }
 
-footer .fa:hover{
-    color: #bc86c2 !important;
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+    
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
