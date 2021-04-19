@@ -7,7 +7,8 @@ body{
     font-family: 'Shadows Into Light Two', cursive;
     margin: 0;
     padding: 0; 
-    background-color:#d7b0d8 ;
+    background-color:#ff9152 ;
+    /*background-color:#d7b0d8 ;*/
     margin-bottom:50px;
 
 }
@@ -21,6 +22,8 @@ body{
   padding-bottom: 30px;
   text-align: center;
 }
+
+
 
 .desktop{
     width: 80%;
@@ -57,9 +60,9 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    height: 40%;
-    opacity: 0.75;
+    width: 50%;
+    height: 50%;
+    opacity: 0.9;
 }
 
 .mobileDevice_600px{
@@ -80,7 +83,7 @@ header h1{
 
 #music{
   min-height: 600px;
-  background-color: #d7b0d8;
+  background-color: #ff9152;
   text-align: center;
   color: white;
 
@@ -139,7 +142,7 @@ input[type="text"], textarea {
   input[type=button], input[type=image], input[type=reset] {
     margin-top: 15px;
     text-align: center;
-    background-color: #d7b0d8;
+    background-color: #ff9152;
     font-family: 'Shadows Into Light Two', cursive;
     padding: 8px 20px 8px 20px;
     color: white;
@@ -192,15 +195,15 @@ footer a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
   }
 
   #background img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     opacity: 0.75;
 }
 
@@ -215,9 +218,9 @@ footer a:hover{
     margin: auto;
     text-align: center;
 }
-.desktop{
+/*.desktop{
     display: none;
-}
+}*/
 
     .button{
   border: solid;
@@ -261,7 +264,7 @@ footer a:hover{
 input[type=button], input[type=image], input[type=reset] {
   margin-top: 15px;
   text-align: center;
-  background-color: #d7b0d8;
+  background-color: #ff9152;
   font-family: 'Shadows Into Light Two', cursive;
   padding: 8px 20px 8px 20px;
   color: white;
