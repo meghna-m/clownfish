@@ -3,6 +3,9 @@
 <head>
     <!-- scaling for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- allows use of google material icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="sptylesheet">
     <!-- allows use of google fonts-->
@@ -13,6 +16,15 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- link to font awesome icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script type="text/javascript" src="javascript/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
     <!-- title showing on webpage tab-->
     <title>Renée Loren </title>
 </head>
@@ -20,17 +32,57 @@
 <!--main section of site--> 
 <body>
 
+
+<!--Navbar-->
+<nav class="navbar navbar-light amber lighten-4 mb-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#"></a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="animated-icon1"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+<section id = 'navBar1'>
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><img  src="images/rasterizedText/homeSmall.png"/> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#stream"><img  src="images/rasterizedText/mediaSmall.png"/></a>
+            </li>
+            <section id = 'navBar2'>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"><img src="images/rasterizedText/contactSmall.png"/></a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </section>
+</section>
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+
 <!--header & navigation bar section-->
 <header>
     <div class=container>
         <!--<h1>Renée Loren </h1>-->
-        <img src="images/rasterizedText/heading.png" /> <br>
+        <img src="images/rasterizedText/heading.png" /> 
         <!--<img src="images/rasterizedText/newMusicRelease.png" /> <br>-->
     
 
     </div>
-
-    <img style="width: 55%;" src="images/rasterizedText/epTitle.png" /> <br>
+<section id = 'epTitle'>
+    <img src="images/rasterizedText/epTitle1.png" /> 
+</section>
 
 </header>
 <!--backgroungd image-->
@@ -38,36 +90,43 @@
 
     <div class="desktop">
     
-
-        <!-- <iframe src="https://open.spotify.com/embed/track/5djB3yhdOUsF1Xyz9aOpIW" width="50%" height="380" frameborder="0"  allowtransparency="true" allow="encrypted-media"></iframe>-->
-       <!--<iframe width="800" height="500" src="https://www.youtube.com/embed/hY13Ora7rgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-    <br>
         <a href = "https://open.spotify.com/album/4LSWKv9oPSCfczMXxd8UpN?si=MklcAIXwT8ag4USvJWMtHA"><img src="images/images/Waiting for the Sky to Fall Square.jpg"></div></a>
     </div>
 
-   <!-- <div class="mobileDevice_600px">
-        <iframe src="https://open.spotify.com/embed/track/6NqxtmX1QBluNPD4xZRPD7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>-->
-
-    </section>
-
-<!--button to link to music streaming-->
-    <section id ='stream'>
-        <div class="container">
-            <div class="button">
-       <a href="pages/stream.html"><img src="images/rasterizedText/stream.png"/></a>
-    </div>
+    </section> 
+    <section id ='music'> 
+        <div class="container" id="stream">
+    <img src="images/rasterizedText/musicOutNow.png" /> 
+    <iframe src="https://open.spotify.com/embed/album/4LSWKv9oPSCfczMXxd8UpN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/6NqxtmX1QBluNPD4xZRPD7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/5djB3yhdOUsF1Xyz9aOpIW" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
 </div>
 </section>
 
-<!--button to link to contact page-->
-    <section id ='contact'>
-        <div class="container">
-        <div class="button">
-            <a href="pages/contact.html"><img src="images/rasterizedText/contact.png"/></a>
-        </div>
-        </div>
-    </section>
+
+<section id='contactForm'>
+    <div class="container" id="contact">
+
+        <!--<h2>Contact</h2>-->
+        <img src="images/rasterizedText/contact.png">
+        <form name="contact" method="POST" data-netlify="true">
+        
+            <label for="fname"></label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+            <br>
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+            <br>
+            <label for="email"></label>
+            <input type="text" placeholder="Email" name="email" required>
+            <br>
+            <label for="subject"></label>
+            <textarea id="subject" name="subject" placeholder="Write your message.." style="height:180px" font = "bold"></textarea>
+            <br>
+            <input type="image" src=images/rasterizedText/submit.png value="Submit">
+</div>
+        </form>
+</section>
 
 
 <footer>
@@ -76,6 +135,32 @@
 <a href="https://open.spotify.com/artist/3lQcpSFQmr3Qo0SajgpkYM?si=LDcSl-RfTdiNqyHJERPR7A"target="_blank"><i class="fa fa-spotify" style="font-size:40px;color:white; padding-right: 15px;"></i></a><br>
  Renée Loren gratefully acknowledges support from PRS for Music Foundation<br>
 <img src="images/images/prs-foundation-logotype-white-small.png">
-<a href ="https://github.com/meghna-m"> ©2020 Meghna Mangat </a>
+<a href ="https://github.com/meghna-m"> ©2022 Meghna Mangat </a>
 </footer>
+
+
+
+<script>$(document).ready(function () {
+
+    $('.first-button').on('click', function () {
+  
+      $('.animated-icon1').toggleClass('open');
+    });
+    $('.second-button').on('click', function () {
+  
+      $('.animated-icon2').toggleClass('open');
+    });
+    $('.third-button').on('click', function () {
+  
+      $('.animated-icon3').toggleClass('open');
+    });
+  });
+  </script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
