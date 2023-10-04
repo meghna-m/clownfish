@@ -31,7 +31,51 @@ footer a{
   text-align: start;
 }
 
+#contactForm form{
+  color: white;
+  text-align: center; 
+}
 
+
+
+input[type="text"], textarea {
+  font-size: large;
+  text-align: center;
+  border: none;
+}
+
+input[type=button], input[type=image], input[type=reset] {
+  
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+
+}
+
+#contactForm textarea  
+{  
+  font-size: large;
+  text-align: center;
+  border: none;
+}
+
+#footer img{
+  width: 20%
+}
+
+footer a:hover{
+    
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  #footer img{
+    width: 40%
+  }
+}
 
 
 
