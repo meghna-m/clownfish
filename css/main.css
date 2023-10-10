@@ -53,7 +53,7 @@ input[type="text"], textarea {
   border: none;
 }
 
-input[type=button], input[type=image], input[type=reset] {
+input[type=submit], input[type=image], input[type=reset] {
   
   text-align: center;
   color: white;
