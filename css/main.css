@@ -2,7 +2,7 @@
 
 *{
   background-color:#41889c ;
-  font-family: 'Jazz LET', fantasy;
+  font-family: 'Quicksand', sans-serif;
   color: white;
   margin: 0;
   padding: 0;
@@ -38,6 +38,11 @@ footer a{
 
 #bio p{
   text-align: start;
+}
+
+#streaming a{
+  text-decoration: none;
+  color: white;
 }
 
 #contactForm form{
@@ -86,7 +91,23 @@ footer a:hover{
   }
 }
 
+@media screen and (min-width: 600px) {
+  #bio img{
+    width: 40%
+  }
+}
 
+@media screen and (min-width: 600px) {
+  #title img{
+    width: 60%
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #streaming i{
+    font-size: 105%;
+  }
+}
 
 
 
