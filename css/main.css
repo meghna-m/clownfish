@@ -50,6 +50,9 @@ footer a{
   text-align: center; 
 }
 
+#contactForm{  
+  margin-top:5%
+}
 
 
 input[type="text"], textarea {
