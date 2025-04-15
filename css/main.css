@@ -34,11 +34,11 @@ iframe{
   color: white;
 }
 
-#title .img{
-  width: 250px;
+#title img{
+  width: 350px;
 }
 
-#title .col-9{
+#title .row-links{
   display: flex;
   justify-content:flex-end;
   flex-direction: row;
